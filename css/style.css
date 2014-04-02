@@ -35,10 +35,33 @@ aside {
 	text-align: center;
 }
 
-.albums img {
+a[href] {
+	font-style: italic;
+}
+
+img[alt*="album"] {
 	margin: 10px 0px 10px -30px;
 }
 
+div[class$="members"] {
+	color:  #878787;
+	
 
 
+}
 
+h1 {
+	text-align: center;
+}
+
+div[class=influence] {
+
+	border: 2px solid #878787;
+	padding-left: 3px;
+
+}
+
+h1[class~="grammy"] + p{
+	color:  #878787;
+
+}
