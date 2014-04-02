@@ -1,5 +1,5 @@
 body {
-	background-color: #333333;
+	background-color: #303030;
 }
 .wrapper {
 	width: 940px;
@@ -14,21 +14,31 @@ header {
 	padding: 10px;
 }
 
-nav {
-
-	text-align: center;
-}
-
-
 aside {
 	float: right;
 	width: 320px;
+	border: 2px solid #3D3D3D;
+	background-color: #000000;
+	padding: 5px;
 }
 
 .content { 
 	float: left;
-	width: 580px;
+	width: 570px;
 	height: auto;
+	border: 2px solid #000000;
+	padding: 10px;
 	
 }
+
+.albums {
+	text-align: center;
+}
+
+.albums img {
+	margin: 10px 0px 10px -30px;
+}
+
+
+
 
