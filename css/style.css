@@ -45,8 +45,6 @@ img[alt*="album"] {
 
 div[class$="members"] {
 	color:  #878787;
-	
-
 
 }
 
@@ -64,4 +62,8 @@ div[class=influence] {
 h1[class~="grammy"] + p{
 	color:  #878787;
 
+}
+
+div[class^="current"] ul li{
+	font-style: italic;
 }
